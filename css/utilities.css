@@ -1,0 +1,154 @@
+/* text colors and font */
+
+.text-primary {
+  color: #565017;
+  /* font-family: "Cormorant Garamond", serif; */
+}
+
+.font-primary {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #565017;
+  color: #fff;
+  border: 1px solid #565017;
+}
+
+/* flex columns */
+.flex-columns .row {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* width: 100%; */
+}
+
+.flex-columns .column {
+  display: flex;
+  /* flex-direction: column; */
+  flex: 1;
+}
+
+.flex-columns img {
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .flex-columns .column-1, */
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.flex-columns h2 {
+  font-size: 50px;
+}
+
+/* section-header */
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 50px;
+}
+
+/* section-footer */
+
+.section-footer {
+  display: flex;
+  /* margin: auto; */
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* flex grid 1*/
+.flex-grid-1 .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.flex-grid-1 .column {
+  /* display: flex; */
+  flex: 25%;
+  max-width: 25%;
+  /* padding: 0 20px; */
+  text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+/* flex grid 2 */
+.flex-grid-2 .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 5px;
+  overflow: hidden;
+}
+
+.flex-grid-2 .column {
+  flex: 1;
+  max-width: 33%;
+  /* padding: 0 20px; */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); */
+}
+
+.flex-grid-2 .text-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #fff;
+}
+
+/* zoom image on hover */
+.flex-grid-2 .img-grid-items {
+  transition: all 2s;
+}
+
+.flex-grid-2 .img-grid-items:hover {
+  transform: scale(1.2);
+}
+
+/* icons */
+.icons:hover {
+  color: #565017;
+}
+
+/* footer */
+.footer {
+  padding: 30px 0;
+}
+
+.footer h2 {
+  font-size: 50px;
+}
