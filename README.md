@@ -14,3 +14,7 @@ Understand and experiment with flexbox.
 ## Website
 
 Visit the [website](https://mrunmayee2906.github.io/The-Harvest/)
+
+##
+
+Photos are taken from unsplash.com
